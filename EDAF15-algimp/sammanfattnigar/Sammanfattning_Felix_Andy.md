@@ -12,6 +12,9 @@ Terms
 > Are used to eliminate *true dependencies* (when the outcome of one instruction
 > is dependent on another). The concerned hazards are write after read and write
 > after write
+> Kommentar: Enligt s150 i boken kan inte *true dependencies* påverkas av rename registers.
+> snarare anti och output dependencies som påverkas
+
 
 **Reorder buffer**
 > The reorder buffer is used for *out-of-order execution*. It allows
